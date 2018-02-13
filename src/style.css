@@ -1,0 +1,41 @@
+.btn.disabled, .btn:disabled {
+    cursor: not-allowed;
+}
+.cid-qJ1QVVypqo {
+     background-image: url("./assets/images/bg_lg.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%; 
+  }
+  .navbar-logo img {
+      height: 3.8rem !important;
+  }
+  .cid-qJ1QVUrHOJ .navbar  {
+    background: #ffffff !important;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    color: #009ed9 !important;
+  }
+  .display-1 {
+    color: #00ac7d;
+  }
+  .cid-qJ1QVWpDcI {
+    background-color: #ddd;
+  }
+  .f-logo-size  img {
+    height: 3.8rem !important;
+  }
+  .footer-wrap p,  .footer-wrap h5 {
+      color: #333;
+  }
+  .footer-wrap a {
+  color: #044da1 !important;
+  }
+  .cid-qJ1QVWpDcI.footer-wrap .footer-lower .social-list .mbr-iconfont-social {
+    color: #00ac7d;
+  }
+  .cid-qJ1QVWpDcI.footer-wrap .footer-lower .social-list a {
+      opacity: 1;
+  }
+  .cid-qJ1QVUrHOJ button.navbar-toggler .hamburger span {
+    background-color: #ec174c;
+  }

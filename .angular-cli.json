@@ -1,0 +1,84 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "baseball"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [        
+        "pace-theme.css",
+        "../lib/mobirise-icons/mobirise-icons.css",
+        "../lib/tether/tether.min.css",
+        "../lib/bootstrap/css/bootstrap.min.css",
+        "../lib//bootstrap/css/bootstrap-grid.min.css",
+        "../lib/bootstrap/css/bootstrap-reboot.min.css",
+        "../lib/socicon/css/styles.css",
+        "../lib/dropdown/css/style.css",
+        "../lib/theme/css/style.css",
+        "../lib/mobirise/css/mbr-additional.css",
+        "../lib/web/assets/mobirise-icons/mobirise-icons.css",
+        "style.css",
+        "style-responsive.css"        
+      ],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/pace-progress/pace.js",  
+        "../lib/popper/popper.min.js",
+        "../lib/tether/tether.min.js",
+        "../lib/bootstrap/js/bootstrap.min.js",
+        "../lib/dropdown/js/script.min.js",
+        "../lib/touchswipe/jquery.touch-swipe.min.js",
+        "../lib/parallax/jarallax.min.js",
+        "../lib/smoothscroll/smooth-scroll.js",
+        "../lib/theme/js/script.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      },
+      "serviceWorker": true
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "src/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
