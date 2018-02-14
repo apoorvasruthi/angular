@@ -23,10 +23,13 @@
     "@angular/router": "^5.0.0",
     "@angular/service-worker": "^5.0.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0",
+    "angularfire2": "^5.0.0-rc.6",
     "core-js": "^2.4.1",
+    "firebase": "^4.9.1",
     "jquery": "^3.3.1",
     "pace-progress": "^1.0.2",
     "rxjs": "^5.5.2",
+    "video.js": "^6.6.3",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {

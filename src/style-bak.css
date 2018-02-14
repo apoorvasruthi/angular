@@ -2,9 +2,9 @@
     cursor: not-allowed;
 }
 .cid-qJ1QVVypqo {
-     /* background-image: url("./assets/images/bg_lg.jpg");
+     background-image: url("./assets/images/bg_lg.jpg");
      background-repeat: no-repeat;
-     background-size: 100% 100%;  */
+     background-size: 100% 100%; 
   }
   .navbar-logo img {
       height: 3.8rem !important;
@@ -45,12 +45,4 @@
   }
   .cuustom-alert {
     font-size: 16px;
-  }
-  .my-player-dimensions {
-    width: 100%;
-    height: 760px;
-  }
-  section.mbr-fullscreen.home-page-body {
-    padding-bottom: 0px;
-    min-height: auto;
   }
